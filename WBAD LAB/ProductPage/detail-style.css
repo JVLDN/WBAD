@@ -1,0 +1,29 @@
+.content-wrapper{
+    display: flex;
+    margin-right: 4%;
+    margin-left: 4%; 
+    margin-bottom: 4%;  
+}
+
+.left-wrapper, .middle-wrapper, .right-wrapper{
+    flex: 1;
+    padding-left: 25px;
+}
+
+
+.product-text h1{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.product-text p{
+    font-size: 20px;
+}
+
+.description-text{
+    font-size: 25px;
+}
+
+#category-text{
+    font-size: 20px;
+}

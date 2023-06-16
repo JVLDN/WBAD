@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Original Recipe | LVinnamon</title>
+    <link rel="icon" href="../img/LVinnamon-logo.png">
+    <link rel="stylesheet" href="product-card.css">
+    <link rel="stylesheet" href="product-style.css">
+    <link rel="stylesheet" href="../css/yloader.css">
+    <link rel="stylesheet" href="../css/ymenu.css">
+</head>
+
+<body>
+    
+    <div class="hidden-notifcation" id="notification">
+        <p id="notification-text"></p>
+    </div>
+
+    <div class="dropDown-product">
+        <ul>
+            <li id="cinnamon-svg"><img src="../img/icons/cinnamon-roll.svg" alt="original-icon"><a href="cinnamon-original.html">Original</a></li>
+            <li id="cinnamon-svg" ><img src="../img/icons/cinnamon-roll.svg" alt="glazed-icon"><a href="cinnamon-glazed.html">Glazed Sugar</a></li>
+            <li id="cinnamon-svg" ><img src="../img/icons/cinnamon-roll.svg" alt="chocolate-icon"><a href="cinnamon-chocolate.html">Chocolate</a></li>
+            <li id="cinnamon-svg" ><img src="../img/icons/tea.svg" alt="tea-icon"><a href="beverage-tea.html">Tea</a></li>
+            <li id="cinnamon-svg" ><img src="../img/icons/smoothie.svg" alt="smoothie-icon"><a href="beverage-smoothie.html">Smoothie</a></li>
+        </ul>
+    </div>
+    
+    <div id="myDFNTV-list">
+        <div class="myDFNTV-header">
+            <h1>IDENTIFICATION</h1>
+        </div>
+        <div class="myDFNTV-header">
+            <h2>I ALREADY HAVE ACCOUNT</h2>
+        </div>
+        <form action="" class="loginForm">
+            <input type="text" Email="" id="text-input" placeholder="Email">
+            <input type="password" Password="" id="text-input" placeholder="Password"><br>
+            <input type="submit" value="Sign In" id="submitBtn" placeholder="Sign In">
+        </form>
+        <div class="myDFNTV-header">
+            <h2>I DON'T HAVE AN ACCOUNT</h2>
+        </div>
+        <form action="" class="regisForm">
+            <input type="text" name="" id="text-input" placeholder="Name">
+            <input type="text" Email="" id="text-input" placeholder="Email">
+            <input type="password" Password="" id="text-input" placeholder="Password"><br>
+            <input type="submit" value="Sign Up" id="submitBtn" placeholder="Sign Up">
+        </form>
+    </div>
+    
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a id="nav-product">Menu</a>
+            <a href="../location.html">Locate Us</a>
+        </div>
+        <div class="navbar-logo">
+            <a href="../home.html">
+                <img src="../img/LVinnamon-headline.png" alt="Logo"></a>
+        </div>
+        <div class="navbar-right">
+            <a href="../aboutus.html">About Us</a>
+            <a id="register-trigger">Register</a>
+        </div>
+    </nav>
+    
+    <!-- <div class="content"> -->
+        <main class="aboutus-main">
+            <section class="info">
+                <article>
+                    <div class="uppercontent">
+                        <div class="title-box">
+                            <h1><span class="subtitle" id="subtitle">Product Category</span><br>Original Cinnamon Rolls</h1>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row-1">
+                        <div class="infobox" onclick="redirectOriginalLarge()">
+                            <div class="card">
+                                <div class="image"><img src="../img/cinnamon/cinnamon-original.png" alt="img-1" style="max-width:18rem"></div>
+                                    <span class="title">LVinnamon Rolls (Large)</span>
+                                    <span class="price">IDR 49,900</span>
+                            </div>
+                        </div>
+                        <div class="infobox" onclick="redirectOriginalLarge()">
+                            <div class="card">
+                                <div class="image"><img src="../img/cinnamon/cinnamon-original.png" alt="img-1" style="max-width:18rem"></div>
+                                    <span class="title">LVinnamon Rolls (Large)</span>
+                                    <span class="price">IDR 49,900</span>
+                            </div>
+                        </div>
+                        <div class="infobox" onclick="redirectOriginalMedium()">
+                            <div class="card">
+                                <div class="image"><img src="../img/cinnamon/cinnamon-original.png" alt="img-1" style="max-width:18rem"></div>
+                                    <span class="title">LVinnamon Rolls (Medium)</span>
+                                    <span class="price">IDR 39,900</span>
+                            </div>
+                        </div>
+                        <div class="infobox" onclick="redirectOriginalMedium()">
+                            <div class="card">
+                                <div class="image"><img src="../img/cinnamon/cinnamon-original.png" alt="img-1" style="max-width:18rem"></div>
+                                    <span class="title">LVinnamon Rolls (Medium)</span>
+                                    <span class="price">IDR 39,900</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-2">
+                        <div class="infobox" onclick="redirectOriginalSmall()">
+                            <div class="card">
+                                <div class="image"><img src="../img/cinnamon/cinnamon-original.png" alt="img-1" style="max-width:18rem"></div>
+                                    <span class="title">LVinnamon Rolls (Small)</span>
+                                    <span class="price">IDR 29,900</span>
+                            </div>
+                        </div>
+                        <div class="infobox" onclick="redirectOriginalSmall()">
+                            <div class="card">
+                                <div class="image"><img src="../img/cinnamon/cinnamon-original.png" alt="img-1" style="max-width:18rem"></div>
+                                    <span class="title">LVinnamon Rolls (Small)</span>
+                                    <span class="price">IDR 29,900</span>
+                            </div>
+                        </div>
+                        <div class="infobox" onclick="redirectOriginalSmall()">
+                            <div class="card">
+                                <div class="image"><img src="../img/cinnamon/cinnamon-original.png" alt="img-1" style="max-width:18rem"></div>
+                                    <span class="title">LVinnamon Rolls (Small)</span>
+                                    <span class="price">IDR 29,900</span>
+                            </div>
+                        </div>
+                        <div class="infobox" onclick="redirectOriginalSmall()">
+                            <div class="card">
+                                <div class="image"><img src="../img/cinnamon/cinnamon-original.png" alt="img-1" style="max-width:18rem"></div>
+                                    <span class="title">LVinnamon Rolls (Small)</span>
+                                    <span class="price">IDR 29,900</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+    <!-- </div> -->
+    <div class="line"></div>
+    <footer class="footer">
+        <p id="foot">Copyright &copy; 2501983023 - Jevaldin Yohanan Gultom @LVinnamon. All rights reserved.</p>
+        <p id="foot">Copyright &copy; 2501992583 - Yuan Stefanus Tampubolon @LVinnamon. All rights reserved.</p>
+        <p id="foot">Copyright &copy; 2501971295 - Febrian Grady Santoso @LVinnamon. All rights reserved.</p>
+        <p id="foot">Contact us at (+62) 85824100880</p>
+    </footer>
+    <script src="../js/jquery-3.7.0.min.js"></script>
+    <script src="../js/zscript.js"></script>
+</body>
+</html>
